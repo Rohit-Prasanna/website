@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <script src="https://kit.fontawesome.com/82c05b49d6.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Gugi' rel='stylesheet'>
+
+        <title>To DO</title>
+    </head>
+<body>
+
+    
+  <div class="tit">
+<h1 >TO-DO-LIST</h1>
+<input class="tpk" type="text" id="topic" placeholder="Topic..."/>
+<input type="date" class="dt" id="date"/>
+<input type="time" id="time"/>
+<br/>
+<span type="button" class="addbtn" id="add-btn" >ADD</span>
+  </div>
+
+<ul class="lst" id="list">  
+
+</ul>
+<div class="footer">
+  <div><span class="rmngtsk">Remaining task =</span>
+  <span id="remaining-task"> 0</span>
+  </div>
+  <button id ="clearall-btn" class="clrall" onclick="clearAll()"> Clear all </button></div>
+ <footer>
+      <div class="attachment-btn">
+
+        <i id="tro" class="fa-solid fa-trophy"></i>
+
+        <div class="attachment-dropdown">
+          <button><i class="fa-solid fa-hashtag" onclick="location.href='TicTacToe/Xindex.html'"></i></button>
+          <button><i class="fa-solid fa-music"onclick="location.href='Drum Kit Completed/d index.html'"></i></button>
+        </div>
+      </div>
+ </footer> 
+
+    <script src="script.js"></script>
+</body>
+</html>
